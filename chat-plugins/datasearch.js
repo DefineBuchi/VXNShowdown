@@ -109,7 +109,11 @@ exports.commands = {
 
 	dexsearchhelp: [
 		"/dexsearch [parameter], [parameter], [parameter], ... - Searches for Pok\u00e9mon that fulfill the selected criteria",
+<<<<<<< HEAD
 		"Valid search categories are: type, tier, color, moves, ability, gen, resists, recovery, priority, stat, weight, height, egg group.",
+=======
+		"Search categories are: type, tier, color, moves, ability, gen, resists, recovery, priority, stat, weight, height, egg group.",
+>>>>>>> ad1031f27776325061d94f1f8eb7cdc635060d5e
 		"Valid colors are: green, red, blue, white, brown, yellow, purple, pink, gray and black.",
 		"Valid tiers are: Uber/OU/BL/UU/BL2/RU/BL3/NU/BL4/PU/NFE/LC/CAP.",
 		"Types must be followed by ' type', e.g., 'dragon type'.",

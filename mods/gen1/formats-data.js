@@ -535,7 +535,11 @@ exports.BattleFormatsData = {
 	exeggcute: {
 		randomBattleMoves: ["sleeppowder", "stunspore"],
 		essentialMove: "psychic",
+<<<<<<< HEAD
 		exclusiveMoves: ["explosion", "explosion", "doubleedge"],
+=======
+		exclusiveMoves: ["explosion", "doubleedge"],
+>>>>>>> ad1031f27776325061d94f1f8eb7cdc635060d5e
 		tier: "LC",
 	},
 	exeggutor: {
