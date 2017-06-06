@@ -24,5 +24,5 @@ exports.BattleAbilities = {
 				return this.chainModify([0x1333, 0x1000]);
 			},
 		},
-		
+	},	
 };
