@@ -301,11 +301,11 @@ exports.Formats = [
 		ruleset: ['Team Preview', 'Cancel Mod'],
 	},
 	
-	//Everything Used
+	//Viably Usable
 	///////////////////////////////////////////////////////////////////
 	
 	{
-		section: "Everything Used",
+		section: "VU Formats",
 		column: 1,
 	},
 	
