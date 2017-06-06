@@ -310,25 +310,25 @@ exports.Formats = [
 	},
 	
 	{
-		name: "[Gen 7] Everything Used",
+		name: "[Gen 7] VU",
 		desc: [
 			"&bullet; Lets make everything OU!",
 			"&bullet; All pokemon are allowed with buffs and nerfs to add viablity as a whole.",
 			"&bullet; Concept by VXN and Universalcraftr. Coded by VXN.",
 			"&bullet; <a href=\"http://www.google.com\">Sample Teams (TBA)</a>",
 		],
-		mod: 'everythingused',
+		mod: 'vu',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
 	},
 	{
-		name: "[Gen 7] Everything Used Random Battle",
+		name: "[Gen 7] VU Random Battle",
 		desc: ["Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable. Battle is used with the Everything Used Project Mod."],
-		mod: 'everythingused',
+		mod: 'vu',
 		team: 'random',
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
 	},
 	{
-		name: "[Gen 7] Doubles Everything Used",
+		name: "[Gen 7] Doubles VU",
 		desc: [
 			"&bullet; Lets make everything OU!",
 			"&bullet; All pokemon are allowed with buffs and nerfs to add viablity as a whole.",
@@ -337,7 +337,7 @@ exports.Formats = [
 		],
 		
 		gameType: 'doubles',
-		mod: 'everythingused',
+		mod: 'vu',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
 	},
 	// Other Metagames
