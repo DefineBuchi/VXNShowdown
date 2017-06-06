@@ -27,7 +27,6 @@ exports.BattleTypeChart = {
 	},
 	"Dark": {
 		damageTaken: {
-			prankster: 3,
 			"Bug": 1,
 			"Dark": 2,
 			"Dragon": 0,
@@ -100,7 +99,7 @@ exports.BattleTypeChart = {
 	},
 	"Fairy": {
 		damageTaken: {
-			"Bug": 2,
+			"Bug": 1,
 			"Dark": 2,
 			"Dragon": 3,
 			"Electric": 0,
@@ -281,21 +280,22 @@ exports.BattleTypeChart = {
 			"Fire": 1,
 			"Flying": 0,
 			"Ghost": 0,
-			"Grass": 0,
-			"Ground": 0,
+			"Grass": 2,
+			"Ground": 2,
 			"Ice": 2,
 			"Normal": 0,
 			"Poison": 0,
 			"Psychic": 0,
-			"Rock": 1,
+			"Rock": 0,
 			"Steel": 1,
-			"Water": 0,
+			"Water": 2,
 		},
 		HPivs: {"atk":30, "def":30},
 		HPdvs: {"def":13},
 	},
 	"Normal": {
 		damageTaken: {
+			prankster: 3,
 			"Bug": 0,
 			"Dark": 0,
 			"Dragon": 0,
@@ -420,6 +420,7 @@ exports.BattleTypeChart = {
 	},
 	"Water": {
 		damageTaken: {
+			hail: 3,
 			"Bug": 0,
 			"Dark": 0,
 			"Dragon": 0,
@@ -433,7 +434,7 @@ exports.BattleTypeChart = {
 			"Ground": 0,
 			"Ice": 2,
 			"Normal": 0,
-			"Poison": 0,
+			"Poison": 1,
 			"Psychic": 0,
 			"Rock": 0,
 			"Steel": 2,
