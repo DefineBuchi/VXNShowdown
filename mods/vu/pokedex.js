@@ -22,6 +22,11 @@ exports.BattlePokedex = {
 	tyranitar: {
 		inherit: true,
 		abilities: {0: "Sand Stream", H: "Intimidate"},
+		baseStats: {hp: 100, atk: 124, def: 110, spa: 95, spd: 100, spe: 81},
 	},
-	
+	tyranitarmega: {
+		inherit: true,
+		baseStats: {hp: 100, atk: 164, def: 150, spa: 95, spd: 125, spe: 76},
+		isUnreleased: false,
+	},
 };
