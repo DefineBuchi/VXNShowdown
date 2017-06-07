@@ -14,4 +14,5 @@ exports.BattlePokedex = {
 	guzzlord: {
 		inherit: true,
 		baseStats: {hp: 200, atk: 101, def: 70, spa: 97, spd: 70, spe: 43},
+	},
 };
