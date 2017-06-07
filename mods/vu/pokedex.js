@@ -8,7 +8,7 @@ exports.BattlePokedex = {
 	},
 	pyukumuku: {
 		inherit: true,
-		baseStats: {hp: 60, atk: 30, def: 130, spa: 75, spd: 130, spe: 5},
+		baseStats: {hp: 60, atk: 30, def: 130, spa: 60, spd: 130, spe: 5},
 		abilities: {0: "Prankster", 1: "Oblivious", H: "Unaware"},
 	},
 	guzzlord: {
