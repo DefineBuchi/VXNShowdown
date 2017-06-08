@@ -29,7 +29,7 @@ exports.BattleStatuses = {
 		},
 		onModifySpe: function (spe, pokemon) {
 			if (!pokemon.hasAbility('quickfeet')) {
-				return this.chainModify(0.5);
+				return this.chainModify(0.25);
 			}
 		},
 		onBeforeMovePriority: 1,
