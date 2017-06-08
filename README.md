@@ -1,4 +1,4 @@
-Pokémon Showdown
+﻿Pokémon Showdown
 ========================================================================
 
 Navigation: [Website][1] | **Server repository** | [Client repository][2] | [Dex repository][3]
@@ -130,48 +130,12 @@ Pokémon Showdown's server is distributed under the terms of the [MIT License][1
 
 Credits
 ------------------------------------------------------------------------
-Server Exlusive
+
 
 - VXN - Development
+- UniversalCraftr - VU Project
 
-Owner
 
-- Guangcong Luo [Zarel] - Development, Design, Sysadmin
-
-Staff
-
-- Chris Monsanto [chaos] - Sysadmin
-- Leonardo Julca [Slayer95] - Development
-- Mathieu Dias-Martins [Marty-D] - Research (game mechanics), Development
-- [The Immortal] - Development
-
-Retired Staff
-
-- Bill Meltsner [bmelts] - Development, Sysadmin
-- Cathy J. Fitzpatrick [cathyjf] - Development, Sysadmin
-- Hugh Gordon [V4] - Research (game mechanics), Development
-- Juanma Serrano [Joim] - Development, Sysadmin
-
-Major Contributors
-
-- Kevin Lau [Ascriptmaster] - Development, Art (battle animations)
-- Konrad Borowski [xfix] - Development
-- Quinton Lee [sirDonovan] - Development
-
-Contributors
-
-- Andrew Goodsell [Zracknel] - Art (battle weather backdrops)
-- Bär Halberkamp [bumbadadabum] - Development
-- Ben Davies [Morfent] - Development
-- Ben Frengley [TalkTakesTime] - Development
-- Cody Thompson [Rising_Dusk] - Development
-- Ian Clail [Layell] - Art (battle graphics, sprites)
-- Jacob Zimmer [SolarisFox] - Development
-- Jeremy Piemonte [panpawn] - Development
-- Neil Rashbrook [urkerab] - Development
-- Robin Vandenbrande [Quinella] - Development
-- [Ridaz] - Art (battle animations)
-
-Special thanks
+Others
 
 - See http://pokemonshowdown.com/credits
