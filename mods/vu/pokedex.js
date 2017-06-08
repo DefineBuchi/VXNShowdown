@@ -27,6 +27,5 @@ exports.BattlePokedex = {
 	tyranitarmega: {
 		inherit: true,
 		baseStats: {hp: 100, atk: 164, def: 150, spa: 95, spd: 125, spe: 76},
-		isUnreleased: false,
 	},
 };
