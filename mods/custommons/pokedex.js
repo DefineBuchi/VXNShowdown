@@ -53,7 +53,7 @@ exports.BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	Naucess: {
+	naucess: {
 		num: -9002,
 		species: "Naucess",
 		types: ["Fairy", "Poison"],
