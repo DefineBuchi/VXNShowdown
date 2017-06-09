@@ -1,5 +1,6 @@
 'use strict';
 exports.BattleLearnsets = {
+	pyrix: {learnset: {
 	quiverdance: ["7M"],
 	lightofruin: ["7M"],
 	hiddenpower: ["7M"],
@@ -26,4 +27,5 @@ exports.BattleLearnsets = {
 	flatter: ["7M"],
 	hex: ["7M"],
 	taunt: ["7M"],
+	},
 };
