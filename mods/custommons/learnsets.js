@@ -3,6 +3,8 @@ exports.BattleLearnsets = {
 	pyrix: {
 		learnset: {
 			quiverdance: ["7M"],
+			wish: ["7M"],
+			healingwish: ["7M"],
 			lightofruin: ["7M"],
 			hiddenpower: ["7M"],
 			protect: ["7M"],
