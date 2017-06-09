@@ -33,7 +33,7 @@ exports.BattleLearnsets = {
 			cosmicpower: ["7M"],
 		},
 	},
-	malwarrior: {
+	naucess: {
 		learnset: {
 			sketch: ["7M"],
 		},
