@@ -1,20 +1,24 @@
 'use strict';
 
 exports.BattleAbilities = {
-"stancechange": {
-		desc: "If this Pokemon is an Aegislash, it changes to Blade Forme before attempting to use an attacking move, and changes to Shield Forme before attempting to use King's Shield.",
-		shortDesc: "If Aegislash, changes Forme to Blade before attacks and Shield before King's Shield.",
+	"modifyprogram": {
 		onBeforeMovePriority: 0.5,
 		onBeforeMove: function (attacker, defender, move) {
-			if (attacker.template.baseSpecies !== 'Aegislash' || attacker.transformed) return;
+			if (attacker.template.baseSpecies !== 'Name' || attacker.transformed) return;
 			if (move.category === 'Special') {
-      
-      } else if (move.category === 'Psysical') {
-      
-      },
-		id: "stancechange",
-		name: "Stance Change",
+				pokemon.formeChange('Name-Mage');
+				this.add('-formechange', attacker, 'Name-Mage', '[from] ability: Modify Program');
+			} else if (move.category === 'Psysical') {
+				attacker.formeChange('Name-Fighter');
+				this.add('-formechange', attacker, 'Name-Fighter', '[from] ability: Modify Program');
+			} else if (move.category === 'Status') {
+				attacker.formeChange('Name');
+				this.add('-formechange', attacker, 'Name', '[from] ability: Modify Program');
+			},
+		},
+		id: "modifyprogram",
+		name: "Modify Program",
 		rating: 5,
-		num: 176,
+		num: -1,
 	},
-  };
+};
