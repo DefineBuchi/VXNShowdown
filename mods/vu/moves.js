@@ -38,4 +38,10 @@ exports.BattleMovedex = {
 		type: "Normal",
 		contestType: "Clever",
 	},
+	"hiddenpower": {
+		inherit: true,
+		onModifyMove: function (move, pokemon) {
+			move.type = pokemon.hpType || 'Normal';
+		},
+	},
 };
