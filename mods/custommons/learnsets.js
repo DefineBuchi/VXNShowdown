@@ -31,5 +31,11 @@ exports.BattleLearnsets = {
 			hex: ["7M"],
 			taunt: ["7M"],
 			cosmicpower: ["7M"],
+		},
+	},
+	malwarrior: {
+		learnset: {
+			sketch: ["7M"],
+		},
 	},
 };
