@@ -18,6 +18,7 @@ exports.BattlePokedex = {
 	abomasnow: {
 		inherit: true,
 		abilities: {0: "Snow Warning", H: "Intimidate"},
+		baseStats: {hp: 90, atk: 97, def: 85, spa: 92, spd: 85, spe: 70},
 	},
 	tyranitar: {
 		inherit: true,
