@@ -28,5 +28,6 @@ exports.BattleLearnsets = {
 			flatter: ["7M"],
 			hex: ["7M"],
 			taunt: ["7M"],
+			cosmicpower: ["7M"],
 	},
 };
