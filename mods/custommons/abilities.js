@@ -4,16 +4,16 @@ exports.BattleAbilities = {
 	"modifyprogram": {
 		onBeforeMovePriority: 0.5,
 		onBeforeMove: function (attacker, defender, move) {
-			if (attacker.template.baseSpecies !== 'Name' || attacker.transformed) return;
+			if (attacker.template.baseSpecies !== 'Malwarrior' || attacker.transformed) return;
 			if (move.category === 'Special') {
-				pokemon.formeChange('Name-Mage');
-				this.add('-formechange', attacker, 'Name-Mage', '[from] ability: Modify Program');
+				attacker.formeChange('Malwarrior-Mage');
+				this.add('-formechange', attacker, 'Malwarrior-Mage', '[from] ability: Modify Program');
 			} else if (move.category === 'Psysical') {
-				attacker.formeChange('Name-Fighter');
+				attacker.formeChange('Malwarrior-Fighter');
 				this.add('-formechange', attacker, 'Name-Fighter', '[from] ability: Modify Program');
 			} else if (move.category === 'Status') {
-				attacker.formeChange('Name');
-				this.add('-formechange', attacker, 'Name', '[from] ability: Modify Program');
+				attacker.formeChange('Malwarrior');
+				this.add('-formechange', attacker, 'Malwarrior', '[from] ability: Modify Program');
 			},
 		},
 		id: "modifyprogram",
