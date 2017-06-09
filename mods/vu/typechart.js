@@ -23,7 +23,7 @@ exports.BattleTypeChart = {
 			"Water": 0,
 		},
 		HPivs: {},
-		HPdvs: {"atk":13, "def":13},
+		HPdvs: {},
 	},
 	"Dark": {
 		damageTaken: {
