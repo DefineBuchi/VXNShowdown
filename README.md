@@ -14,7 +14,7 @@ Navigation: [Website][1] | **Server repository** | [Client repository][2] | [Dex
 Introduction
 ------------------------------------------------------------------------
 
-Hi, I'm VXN. This is a server thats not really up for grabs. Its mainly for the VXNMon project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff. tesr
+Hi, I'm VXN. This is a server thats not really up for grabs. Its mainly for the VXNMon project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff.
 
 
 Installing
