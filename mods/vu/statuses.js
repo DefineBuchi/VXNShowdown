@@ -612,7 +612,7 @@ exports.BattleStatuses = {
 			}
 			return 5;
 		},
-    onWeatherModifyDamage: function (damage, attacker, defender, move) {
+		onWeatherModifyDamage: function (damage, attacker, defender, move) {
 			if (move.type === 'Ice') {
 				this.debug('VU Hail ice boost');
 				return this.chainModify(1.5);
