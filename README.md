@@ -124,7 +124,7 @@ Credits
 ------------------------------------------------------------------------
 
 
-- VXN - Development
+- Garbodor - Development
 - UniversalCraftr - VU Project
 
 
