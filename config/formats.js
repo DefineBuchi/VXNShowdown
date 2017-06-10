@@ -341,6 +341,16 @@ exports.Formats = [
 		mod: 'vu',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
 	},
+	{
+		name: "[Gen 7] Fakemons",
+		mod: "custommons",
+		ruleset: ['[Gen 7] OU'],
+		unbanlist: ['Custom'],
+		desc: [
+			"Battle with Custom Made Pokemon!",
+			"You may request for one, but it may take a while",
+		],
+	},
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
 
