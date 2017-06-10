@@ -17,7 +17,6 @@ exports.BattleLearnsets = {
 			sunnyday: ["7M"],
 			nastyplot: ["7M"],
 			calmmind: ["7M"],
-			hiddenpower: ["7M"],
 			hypnosis: ["7M"],
 			chargebeam: ["7M"],
 			psyshock: ["7M"],
