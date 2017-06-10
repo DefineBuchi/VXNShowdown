@@ -570,33 +570,21 @@ let commands = {
 	},
 
 	guess: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply("There is no scavenger game currently running.");
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		if (!this.canTalk()) return this.errorReply("You cannot participate in the scavenger hunt when you are unable to talk.");
 
 		room.game.onSubmit(user, target);
 	},
 
 	join: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply("There is no scavenger game currently running.");
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		if (!this.canTalk()) return this.errorReply("You cannot join the scavenger hunt when you are unable to talk.");
 
 		room.game.joinGame(user);
 	},
 
 	leave: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply("There is no scavenger game currently running.");
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		room.game.leaveGame(user);
 	},
 
@@ -613,11 +601,7 @@ let commands = {
 			'': 'new',
 			'create': 'new',
 			new: function (target, room, user) {
-<<<<<<< HEAD
-				if (room.id !== 'scavengers') return this.errorReply("Scavenger hunts can only be created in the scavenger room.");
-=======
 				if (room.id !== 'scavengers') return this.errorReply("Scavenger hunts can only be created in the scavengers room.");
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 				if (!this.can('mute', null, room)) return false;
 				if (room.game) return this.errorReply(`There is already a game in this room - ${room.game.title}.`);
 
@@ -632,11 +616,7 @@ let commands = {
 		 */
 		end: function (target, room, user) {
 			if (!this.can('mute', null, room)) return false;
-<<<<<<< HEAD
-			if (!room.game || !room.game.scavParentGame) return this.errorReply(`There is no Scavenger Game currently running.`);
-=======
 			if (!room.game || !room.game.scavParentGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 
 			this.privateModCommand(`The ${room.game.title} has been forcibly ended by ${user.name}.`);
 			room.game.announce(`The ${room.game.title} has been forcibly ended.`);
@@ -645,11 +625,7 @@ let commands = {
 
 		kick: function (target, room, user) {
 			if (!this.can('mute', null, room)) return false;
-<<<<<<< HEAD
-			if (!room.game || !room.game.scavParentGame) return this.errorReply(`There is no Scavenger Game currently running.`);
-=======
 			if (!room.game || !room.game.scavParentGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 
 			let targetId = toId(target);
 			if (targetId === 'constructor') return false;
@@ -693,32 +669,20 @@ let commands = {
 	},
 
 	status: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		let elapsed = Date.now() - room.game.startTime;
 
 		this.sendReplyBox(`The current ${room.game.gameType ? `<em>${room.game.gameType}</em> ` : ""}scavenger hunt has been up for: ${Chat.toDurationString(elapsed, {hhmmss: true})}<br />Completed (${room.game.completed.length}): ${room.game.completed.map(u => Chat.escapeHTML(u.name)).join(', ')}`);
 	},
 
 	hint: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		if (!room.game.onSendQuestion(user)) this.errorReply("You are not currently participating in the hunt.");
 	},
 
 	timer: function (target, room, user) {
 		if (!this.can('mute', null, room)) return false;
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 
 		let result = room.game.setTimer(target);
 		let message = `The scavenger timer has been ${(result === 'off' ? "turned off" : `set to ${result} minutes`)}`;
@@ -729,11 +693,7 @@ let commands = {
 
 	reset: function (target, room, user) {
 		if (!this.can('mute', null, room)) return false;
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 
 		if (room.game.gameType !== 'practice') HostLeaderboard.addPoints(room.game.hostName, -1); // only deduct for non practice games.
 		room.game.onEnd(true, user);
@@ -742,32 +702,20 @@ let commands = {
 
 	end: function (target, room, user) {
 		if (!this.can('mute', null, room)) return false;
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		room.game.onEnd(null, user);
 		this.privateModCommand(`(${user.name} has ended the scavenger hunt.)`);
 	},
 
 	viewhunt: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		if (room.game.hostId !== user.userid && room.game.staffHostId !== user.userid && !room.game.hasFinished(user)) return this.errorReply("You cannot view the hints and answers if you are not the host, or if you have not finished the hunt yet.");
 
 		this.sendReply(`|raw|<div class="ladder"><table style="width: 100%"><tr><th>Hint</th><th>Answer</th></tr>${room.game.questions.map(q => `<tr><td>${Chat.parseText(q.hint)}</td><td>${Chat.escapeHTML(q.answer)}</td></tr>`).join("")}</table><div>`);
 	},
 
 	edithunt: function (target, room, user) {
-<<<<<<< HEAD
-		if (!room.game || !room.game.scavGame) return false;
-=======
 		if (!room.game || !room.game.scavGame) return this.errorReply(`There is no scavenger game currently running.`);
->>>>>>> b0fcc89e4e8b82eba4a732558ef5f588c1481158
 		if ((room.game.hostId !== user.userid || !user.can('broadcast', null, room)) && room.game.staffHostId !== user.userid) return this.errorReply("You cannot edit the hints and answers if you are not the host.");
 
 		if (!room.game.onEditQuestion(...target.split(',').map(p => p.trim()))) return this.sendReply("/scavengers edithunt [question number], [hint | answer], [value] - edits the current scavenger hunt.");
