@@ -301,15 +301,14 @@ exports.Formats = [
 		// no restrictions, for serious (other than team preview)
 		ruleset: ['Team Preview', 'Cancel Mod'],
 	},
-	
+
 	//Viably Usable
 	///////////////////////////////////////////////////////////////////
-	
+
 	{
 		section: "VU Formats",
 		column: 1,
 	},
-	
 	{
 		name: "[Gen 7] VU",
 		desc: [
@@ -336,7 +335,6 @@ exports.Formats = [
 			"&bullet; Concept by VXN and Universalcraftr. Coded by VXN.",
 			"&bullet; <a href=\"http://www.google.com\">Sample Teams (TBA)</a>",
 		],
-		
 		gameType: 'doubles',
 		mod: 'vu',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
