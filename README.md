@@ -1,20 +1,12 @@
-﻿Pokémon Showdown
+﻿Virtual
 ========================================================================
 
-Navigation: [Website][1] | **Server repository** | [Client repository][2] | [Dex repository][3]
-
-  [1]: http://pokemonshowdown.com/
-  [2]: https://github.com/Zarel/Pokemon-Showdown-Client
-  [3]: https://github.com/Zarel/Pokemon-Showdown-Dex
-
-[![Build Status](https://travis-ci.org/Zarel/Pokemon-Showdown.svg)](https://travis-ci.org/Zarel/Pokemon-Showdown)
-[![Dependency Status](https://david-dm.org/zarel/Pokemon-Showdown.svg)](https://david-dm.org/zarel/Pokemon-Showdown)
-[![devDependency Status](https://david-dm.org/zarel/Pokemon-Showdown/dev-status.svg)](https://david-dm.org/zarel/Pokemon-Showdown#info=devDependencies)
+[![Build Status](https://travis-ci.org/Garbodor/Virtual.svg)](https://travis-ci.org/Garbodor/Virtual)
 
 Introduction
 ------------------------------------------------------------------------
 
-Hi, I'm VXN. This is a server thats not really up for grabs. Its mainly for the VXNMon project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff.
+Hi, I'm Garbodor. This is a server thats not really up for grabs. Its mainly for the VU project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff I want to do.
 
 
 Installing
