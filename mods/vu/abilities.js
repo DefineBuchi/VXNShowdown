@@ -6,7 +6,6 @@ exports.BattleAbilities = {
 		onImmunity: function (type, pokemon) {
 			if (type === 'hail') return false;
 		},
-		
 	},
 	"liquidvoice": {
 		inherit: true,
@@ -24,5 +23,5 @@ exports.BattleAbilities = {
 				return this.chainModify([0x1333, 0x1000]);
 			},
 		},
-	},	
+	},
 };

@@ -1,7 +1,7 @@
 'use strict';
 
 exports.BattleItems = {
-  "abomasite": {
+	"abomasite": {
 		id: "abomasite",
 		name: "Abomasite",
 		spritenum: 575,
