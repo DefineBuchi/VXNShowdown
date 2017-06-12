@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 // Note: This is the list of formats
 // The rules that formats use are stored in data/rulesets.js
@@ -341,7 +341,7 @@ exports.Formats = [
 	},
 	{
 		name: "[Gen 7] Fakemons",
-		mod: "custommons",
+		mod: "genc",
 		ruleset: ['[Gen 7] OU'],
 		unbanlist: ['Custom'],
 		desc: [
