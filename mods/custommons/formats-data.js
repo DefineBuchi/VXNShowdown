@@ -16,4 +16,10 @@ exports.BattleFormatsData = {
 	naucess: {
 		tier: "Custom",
 	},
+	chivalroot: {
+		tier: "Custom",
+	},
+	poseident: {
+		tier: "Custom",
+	},
 };
