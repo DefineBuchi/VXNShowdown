@@ -57,7 +57,7 @@ exports.BattlePokedex = {
 		num: -9002,
 		species: "Naucess",
 		types: ["Fairy", "Poison"],
-		baseStats: {hp: 110, atk: 100, def: 60, spa: 100, spd: 60, spe: 75},
+		baseStats: {hp: 110, atk: 130, def: 60, spa: 60, spd: 60, spe: 75},
 		abilities: {0: "Queenly Majesty", 1: "Moody", H: "Firestarter"},
 		heightm: 1,
 		weightkg: 15,
