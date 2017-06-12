@@ -21,7 +21,7 @@ exports.BattleMovedex = {
 		multihit: [2, 5],
 		secondary: false,
 		target: "normal",
-		type: "Normal",
+		type: "Fairy",
 		zMovePower: 100,
 		contestType: "Cute",
 	},
