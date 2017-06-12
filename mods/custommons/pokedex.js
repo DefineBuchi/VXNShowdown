@@ -12,9 +12,9 @@ exports.BattlePokedex = {
 		color: "Red",
 		eggGroups: ["Amorphous"],
 	},
-	malwarrior: {
+	malwar: {
 		num: -9001,
-		species: "Malwarrior",
+		species: "Malwar",
 		baseForme: "Observer",
 		types: ["Electric", "Normal"],
 		baseStats: {hp: 100, atk: 75, def: 120, spa: 75, spd: 120, spe: 100},
@@ -25,10 +25,10 @@ exports.BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Mage", "Fighter"],
 	},
-	malwarriormage: {
+	malwarmage: {
 		num: -9001,
-		species: "Malwarrior-Mage",
-		baseSpecies: "Malwarrior",
+		species: "Malwar-Mage",
+		baseSpecies: "Malwar",
 		forme: "Mage",
 		formeLetter: "M",
 		types: ["Electric", "Psychic"],
@@ -41,8 +41,8 @@ exports.BattlePokedex = {
 	},
 	malwarriorfighter: {
 		num: -9001,
-		species: "Malwarrior-Fighter",
-		baseSpecies: "Malwarrior",
+		species: "Malwar-Fighter",
+		baseSpecies: "Malwar",
 		forme: "Fighter",
 		formeLetter: "F",
 		types: ["Electric", "Fighting"],
