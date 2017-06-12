@@ -103,11 +103,6 @@ exports.BattleScripts = {
 
 		if (template.battleOnly) species = template.baseSpecies;
 
-		let battleForme = this.checkBattleForme(template);
-		if (battleForme && battleForme.randomBattleMoves && this.random(2)) {
-			template = this.getTemplate(template.otherFormes.length >= 2 ? template.otherFormes[this.random(template.otherFormes.length)] : template.otherFormes[0]);
-		}
-
 		let movePool = (template.randomBattleMoves ? template.randomBattleMoves.slice() : Object.keys(template.learnset));
 		let moves = [];
 		let ability = '';
@@ -308,6 +303,9 @@ exports.BattleScripts = {
 				// Status:
 				case 'leechseed': case 'painsplit':
 					if (hasMove['rest'] || hasMove['synthesis']) rejected = true;
+					break;
+				case 'substitute':
+					if (hasMove['pursuit'] || hasMove['taunt']) rejected = true;
 					break;
 				case 'thunderwave':
 					if (hasMove['toxic'] || hasMove['trickroom']) rejected = true;
@@ -638,9 +636,8 @@ exports.BattleScripts = {
 		let pokemonPool = [];
 		for (let id in this.data.FormatsData) {
 			let template = this.getTemplate(id);
-			if (template.gen <= this.gen && !excludedTiers[template.tier] && !template.isNonstandard && template.randomBattleMoves) {
-				pokemonPool.push(id);
-			}
+			if (template.gen > this.gen || excludedTiers[template.tier] || template.isNonstandard || !template.randomBattleMoves) continue;
+			pokemonPool.push(id);
 		}
 
 		let typeCount = {};

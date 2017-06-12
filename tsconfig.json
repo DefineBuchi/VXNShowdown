@@ -14,6 +14,10 @@
         "./sim/dex.js",
         "./sim/prng.js",
         "./crashlogger.js",
+<<<<<<< HEAD
+=======
+        "./dnsbl.js",
+>>>>>>> c8bee25725a182850eefa374fde70d23f17dde74
         "./repl.js"
     ]
 }

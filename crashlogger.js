@@ -25,7 +25,11 @@ let hadException = false;
  *
  * @param {Error} err
  * @param {string} description
+<<<<<<< HEAD
  * @param {?Object} data
+=======
+ * @param {?Object} [data = null]
+>>>>>>> c8bee25725a182850eefa374fde70d23f17dde74
  * @return {?string}
  */
 module.exports = function crashLogger(err, description, data = null) {
@@ -41,10 +45,14 @@ module.exports = function crashLogger(err, description, data = null) {
 
 	console.error(`\nCRASH: ${stack}\n`);
 	let out = require('fs').createWriteStream(logPath, {'flags': 'a'});
-	out.on("open", fd => {
+	out.on('open', fd => {
 		out.write(`\n${stack}\n`);
 		out.end();
+<<<<<<< HEAD
 	}).on("error", /** @param {Error} err */ err => {
+=======
+	}).on('error', /** @param {Error} err */ err => {
+>>>>>>> c8bee25725a182850eefa374fde70d23f17dde74
 		console.error(`\nSUBCRASH: ${err.stack}\n`);
 	});
 
@@ -60,8 +68,13 @@ module.exports = function crashLogger(err, description, data = null) {
 				from: Config.crashguardemail.from,
 				to: Config.crashguardemail.to,
 				subject: Config.crashguardemail.subject,
+<<<<<<< HEAD
 				text: `${description} crashed ${hadException ? "again " : ""}with this stack trace:\n${stack}`,
 			}, /** @param {Error?} err */ err => {
+=======
+				text: `${description} crashed ${hadException ? 'again ' : ''}with this stack trace:\n${stack}`,
+			}, /** @param {?Error} err */ err => {
+>>>>>>> c8bee25725a182850eefa374fde70d23f17dde74
 				if (err) console.error(`Error sending email: ${err}`);
 			});
 		}
@@ -72,5 +85,9 @@ module.exports = function crashLogger(err, description, data = null) {
 		// lock down the server
 		return 'lockdown';
 	}
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8bee25725a182850eefa374fde70d23f17dde74
 	return null;
 };
