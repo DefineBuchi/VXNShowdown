@@ -286,11 +286,7 @@ exports.commands = {
 			if (!this.can('modlog', null, targetRoom)) return;
 		}
 
-<<<<<<< HEAD
-		let addModlogLinks = Config.modloglink && (!hideIps || (targetRoom && !targetRoom.isPrivate));
-=======
 		let addModlogLinks = Config.modloglink && (!hideIps || (targetRoom && targetRoom.isPrivate !== true));
->>>>>>> c8bee25725a182850eefa374fde70d23f17dde74
 		// Let's check the number of lines to retrieve or if it's a word instead
 		let lines = 0;
 		if (!target.match(/[^0-9]/)) {
