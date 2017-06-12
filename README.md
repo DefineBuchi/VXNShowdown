@@ -126,4 +126,6 @@ Credits
 
 - Garbodor - Development
 - UniversalCraftr - VU Project
-- Zarel and Everyone here: http://pokemonshowdown.com/credits - Making PS available for me to use and modify
+- Zarel and Everyone [here][11] - Making PS available for me to use and modify
+
+[11]: http://pokemonshowdown.com/credits
