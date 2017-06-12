@@ -39,7 +39,7 @@ exports.BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
-	malwarriorfighter: {
+	malwarfighter: {
 		num: -9001,
 		species: "Malwar-Fighter",
 		baseSpecies: "Malwar",
