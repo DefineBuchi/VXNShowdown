@@ -1,7 +1,7 @@
 ﻿Garbodor's PS Repo
 ========================================================================
 
-[![Build Status](https://travis-ci.org/Garbodor/Virtual.svg)](https://travis-ci.org/Garbodor/Virtual)
+[![Build Status](https://travis-ci.org/Garbodor/GarbodorShowdown.svg)](https://travis-ci.org/Garbodor/GarbodorShowdown)
 
 Introduction
 ------------------------------------------------------------------------
