@@ -75,7 +75,7 @@ exports.BattlePokedex = {
 		color: "Green",
 		eggGroups: ["Human-Like", "Field"],
 	},
-	Poseident: {
+	poseident: {
 		num: -9004,
 		species: "Poseident",
 		types: ["Water", "Fighting"],
