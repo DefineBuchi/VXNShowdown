@@ -6,7 +6,7 @@ exports.BattlePokedex = {
 		species: "Pyrix",
 		types: ["Fire", "Fairy"],
 		baseStats: {hp: 110, atk: 60, def: 85, spa: 120, spd: 90, spe: 90},
-		abilities: {0: "Blaze", H: "Intimidate"},
+		abilities: {0: "Blaze", H: "Simple"},
 		heightm: 0.5,
 		weightkg: 0.1,
 		color: "Red",
