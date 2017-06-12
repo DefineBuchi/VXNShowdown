@@ -4,13 +4,13 @@ exports.BattleFormatsData = {
 	pyrix: {
 		tier: "Custom",
 	},
-	malwarrior: {
+	malwarr: {
 		tier: "Custom",
 	},
-	malwarriormage: {
+	malwarmage: {
 		tier: "Custom",
 	},
-	malwarriorfighter: {
+	malwarfighter: {
 		tier: "Custom",
 	},
 	naucess: {
