@@ -8,6 +8,15 @@ Introduction
 
 Hi, I'm Garbodor. This is a server thats not really up for grabs. Its mainly for the VU project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff I want to do.
 
+This is the source code for the game server of [Pokémon Showdown][4], a website for Pokémon battling. Pokémon Showdown simulates singles, doubles and triples battles in all the games out so far (Generations 1 through 7).
+
+This repository contains the files needed to set up your own Pokémon Showdown server. Note that to set up a server, you'll also need a server computer.
+
+You can use your own computer as a server, but for other people to connect to your computer, you'll need to expose a port (default is 8000 but you can choose a different one) to connect to, which sometimes requires [port forwarding][5] (note that this isn't possible on certain internet connections).
+
+  [4]: http://pokemonshowdown.com/
+  [5]: http://en.wikipedia.org/wiki/Port_forwarding
+
 
 Installing
 ------------------------------------------------------------------------
