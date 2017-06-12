@@ -33,7 +33,7 @@ exports.BattleLearnsets = {
 			sleeptalk: ["7M"],
 		},
 	},
-	malwarrior: {
+	malwar: {
 		learnset: {
 			sketch: ["7M"],
 		},
