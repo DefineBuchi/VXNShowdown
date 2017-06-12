@@ -16,7 +16,7 @@ exports.BattleMovedex = {
 			contact: 1,
 			protect: 1,
 			mirror: 1,
-			punch: 1
+			punch: 1,
 		},
 		multihit: [2, 5],
 		secondary: false,
