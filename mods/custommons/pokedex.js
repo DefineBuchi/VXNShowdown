@@ -80,7 +80,7 @@ exports.BattlePokedex = {
 		species: "Poseident",
 		types: ["Water", "Fighting"],
 		baseStats: {hp: 90, atk: 120, def: 70, spa: 30, spd: 50, spe: 110},
-		abilities: {0: "Torrent", H: "Justified"},
+		abilities: {0: "Torrent", H: "Defiant"},
 		heightm: 1.5,
 		weightkg: 5,
 		color: "Blue",
