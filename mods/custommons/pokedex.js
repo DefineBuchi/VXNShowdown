@@ -18,7 +18,7 @@ exports.BattlePokedex = {
 		baseForme: "Observer",
 		types: ["Electric", "Normal"],
 		baseStats: {hp: 100, atk: 75, def: 120, spa: 75, spd: 120, spe: 100},
-		abilities: {0: "Trace"},
+		abilities: {0: "Frisk"},
 		heightm: 1.7,
 		weightkg: 1,
 		color: "Blue",
