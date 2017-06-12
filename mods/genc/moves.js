@@ -19,6 +19,10 @@ exports.BattleMovedex = {
 			punch: 1,
 		},
 		multihit: [2, 5],
+		onPrepareHit: function (target, source) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Power-Up Punch", target);
+		},
 		secondary: false,
 		target: "normal",
 		type: "Fairy",
