@@ -6,7 +6,7 @@
 Introduction
 ------------------------------------------------------------------------
 
-Hi, I'm Garbodor. This is a server thats not really up for grabs. Its mainly for the VU project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff I want to do.
+Hi, I'm Its All Good Man!. This is a server thats not really up for grabs. Its mainly for the VU project where I and other people try to make every pokemon OU viable regardless of Rank (yes Ubers will be usable and nerfed in this meta) as well as other stuff I want to do.
 
 This is the source code for the game server of [Pokémon Showdown][4], a website for Pokémon battling. Pokémon Showdown simulates singles, doubles and triples battles in all the games out so far (Generations 1 through 7).
 
@@ -133,7 +133,7 @@ Credits
 ------------------------------------------------------------------------
 
 
-- Garbodor - Development
+- Its All Good Man! - Development
 - UniversalCraftr - VU Project
 - Zarel and Everyone [here][11] - Making PS available for me to use and modify
 
