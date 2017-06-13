@@ -339,22 +339,123 @@ exports.Formats = [
 		mod: 'vu',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
 	},
+	
+	//New Custom Pokemon Generation :D
+	///////////////////////////////////////////////////////////////////
+	
 	{
-		name: "[Gen 7] Fakemons",
-		mod: "genc",
-		ruleset: ['[Gen 7] OU'],
-		unbanlist: ['Custom'],
+		section: "VN Singles",
+		column: 2,
+	},
+	{
+		name: "[Gen 7] OU (C)",
 		desc: [
-			"Battle with Custom Made Pokemon!",
-			"You may request for one, but it may take a while",
+			"OU, but with custom pokemon!",
 		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] OU'],
+	},
+	{
+		name: "[Gen 7] Ubers (C)",
+		desc: [
+			"Uber, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] Ubers'],
+	},
+	{
+		name: "[Gen 7] UU (C)",
+		desc: [
+			"UU, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] UU'],
+	},
+	{
+		name: "[Gen 7] RU (C)",
+		desc: [
+			"RU, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] RU'],
+	},
+	{
+		name: "[Gen 7] NU (C)",
+		desc: [
+			"NU, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] NU'],
+	},
+	/*
+	{
+		name: "[Gen 7] PU (C)",
+		desc: [
+			"PU, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] PU'],
+	},
+	{
+		name: "[Gen 7] LC (C)",
+		desc: [
+			"LC, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		maxLevel: 5,
+		ruleset: ['[Gen 7] LC'],
+	},
+	*/
+	{
+		name: "[Gen 7] Anything Goes (C)",
+		desc: [
+			"AG, but with custom pokemon!",
+		],
+
+		mod: 'genc',
+		ruleset: ['[Gen 7] AG'],
+	},
+	{
+		section: "VN Doubles",
+		column: 2,
+	},
+	{
+		name: "[Gen 7] Doubles OU (C)",
+		desc: ["Doubles Ubers but with custom pokemon!"],
+
+		mod: 'genc',
+		gameType: 'doubles',
+		ruleset: ['[Gen 7] Doubles OU'],
+	},
+	{
+		name: "[Gen 7] Doubles Ubers (C)",
+		desc: ["Doubles Ubers but with custom pokemon!"],
+
+		mod: 'genc',
+		gameType: 'doubles',
+		ruleset: ['[Gen 7] Doubles Ubers'],
+	},
+	{
+		name: "[Gen 7] Doubles UU (C)",
+		desc: ["DUU but with custom pokemon!"],
+
+		mod: 'genc',
+		gameType: 'doubles',
+		ruleset: ['[Gen 7] Doubles UU!'],
 	},
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
 
 	{
 		section: "OM of the Month",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "[Gen 7] Godly Gift",
@@ -392,7 +493,7 @@ exports.Formats = [
 	},
 	{
 		section: "Other Metagames",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "[Gen 7] Balanced Hackmons",
@@ -655,7 +756,7 @@ exports.Formats = [
 
 	{
 		section: "Randomized Metas",
-		column: 2,
+		column: 3,
 	},
 	{
 		name: "Battle Factory",
@@ -719,7 +820,7 @@ exports.Formats = [
 
 	{
 		section: "RoA Spotlight",
-		column: 3,
+		column: 4,
 	},
 	{
 		name: "[Gen 5] OU (blind)",
@@ -735,7 +836,7 @@ exports.Formats = [
 
 	{
 		section: "ORAS Singles",
-		column: 3,
+		column: 4,
 	},
 	{
 		name: "OU",
@@ -1019,7 +1120,7 @@ exports.Formats = [
 
 	{
 		section: "BW2 Singles",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 5] OU",
@@ -1126,7 +1227,7 @@ exports.Formats = [
 
 	{
 		section: 'BW2 Doubles',
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 5] Doubles OU",
@@ -1176,7 +1277,7 @@ exports.Formats = [
 
 	{
 		section: "Past Generations",
-		column: 4,
+		column: 5,
 	},
 	{
 		name: "[Gen 4] OU",
