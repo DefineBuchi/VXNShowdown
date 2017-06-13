@@ -2,24 +2,24 @@
 
 exports.BattleFormatsData = {
 	pyrix: {
-		tier: "Custom",
+		tier: "OU",
 	},
 	malwar: {
-		tier: "Custom Uber",
+		tier: "Uber",
 	},
 	malwarmage: {
-		tier: "Custom Uber",
+		tier: "Uber",
 	},
 	malwarfighter: {
-		tier: "Custom Uber",
+		tier: "Uber",
 	},
 	naucess: {
-		tier: "Custom",
+		tier: "OU",
 	},
 	chivalroot: {
-		tier: "Custom",
+		tier: "OU",
 	},
 	poseident: {
-		tier: "Custom",
+		tier: "OU",
 	},
 };
