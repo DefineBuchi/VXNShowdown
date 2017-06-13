@@ -1,4 +1,4 @@
-Garbodor's PS Repo
+Its all good Man!'s PS Repo
 ========================================================================
 
 [![Build Status](https://travis-ci.org/ItsAllGoodMan/ITAGMShowdown.svg)](https://travis-ci.org/ItsAllGoodMan/ITAGMShowdown)
