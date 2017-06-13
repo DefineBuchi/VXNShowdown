@@ -339,10 +339,10 @@ exports.Formats = [
 		mod: 'vu',
 		ruleset: ['Pokemon', 'Standard', 'Team Preview'],
 	},
-	
+
 	//New Custom Pokemon Generation :D
 	///////////////////////////////////////////////////////////////////
-	
+
 	{
 		section: "VN Singles",
 		column: 2,
