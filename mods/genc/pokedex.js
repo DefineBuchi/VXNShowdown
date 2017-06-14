@@ -93,4 +93,16 @@ exports.BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Water 1"],
 	},
+	Zeron: {
+		num: -9005,
+		species: "Zeron",
+		types: ["Ice", "Flying"],
+		baseStats: {hp: 55, atk: 70, def: 95, spa: 120, spd: 80, spe: 55},
+		abilities: {0: "Snow Cloak", 1: "Magic Guard", H: "Unaware"},
+		genderRatio: {M: 0.5, F: 0.5},
+		heightm: 1.2,
+		weightkg: 0.8,
+		color: "Blue",
+		eggGroups: ["Field"],
+	},
 };
