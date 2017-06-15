@@ -4,7 +4,7 @@ exports.BattleLearnsets = {
 		learnset: {
 			quiverdance: ["7M"],
 			wish: ["7M"],
-			solarbeam ["7M"],
+			solarbeam: ["7M"],
 			healingwish: ["7M"],
 			lightofruin: ["7M"],
 			hiddenpower: ["7M"],
