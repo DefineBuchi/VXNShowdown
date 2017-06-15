@@ -1,4 +1,4 @@
-VXN's PS Repo
+﻿VXN's PS Repo
 ========================================================================
 
 [![Build Status](https://travis-ci.org/Ringabel/VXNShowdown.svg?branch=master)](https://travis-ci.org/Ringabel/VXNShowdown)
