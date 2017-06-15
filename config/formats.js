@@ -419,7 +419,7 @@ exports.Formats = [
 	},
 	*/
 	{
-		name: "[Gen 7] Custom Anything Goes (C)",
+		name: "[Gen 7] Custom Anything Goes",
 		desc: [
 			"AG, but with custom pokemon!",
 		],
