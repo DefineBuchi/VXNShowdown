@@ -312,7 +312,7 @@ exports.Formats = [
 
 	{
 		section: "VU Formats",
-		column: 1,
+		column: 2,
 	},
 	{
 		name: "[Gen 7] VU",
@@ -349,11 +349,11 @@ exports.Formats = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "VN Singles",
+		section: "Custom Pokemon Singles",
 		column: 2,
 	},
 	{
-		name: "[Gen 7] OU (C)",
+		name: "[Gen 7] Custom OU",
 		desc: [
 			"OU, but with custom pokemon!",
 		],
@@ -362,7 +362,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] OU'],
 	},
 	{
-		name: "[Gen 7] Ubers (C)",
+		name: "[Gen 7] Custom Ubers",
 		desc: [
 			"Uber, but with custom pokemon!",
 		],
@@ -371,7 +371,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] Ubers'],
 	},
 	{
-		name: "[Gen 7] UU (C)",
+		name: "[Gen 7] Custom UU",
 		desc: [
 			"UU, but with custom pokemon!",
 		],
@@ -380,7 +380,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] UU'],
 	},
 	{
-		name: "[Gen 7] RU (C)",
+		name: "[Gen 7] Custom RU",
 		desc: [
 			"RU, but with custom pokemon!",
 		],
@@ -389,7 +389,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] RU'],
 	},
 	{
-		name: "[Gen 7] NU (C)",
+		name: "[Gen 7] Custom NU",
 		desc: [
 			"NU, but with custom pokemon!",
 		],
@@ -399,7 +399,7 @@ exports.Formats = [
 	},
 	/*
 	{
-		name: "[Gen 7] PU (C)",
+		name: "[Gen 7] Custom PU",
 		desc: [
 			"PU, but with custom pokemon!",
 		],
@@ -408,7 +408,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] PU'],
 	},
 	{
-		name: "[Gen 7] LC (C)",
+		name: "[Gen 7] Custom LC",
 		desc: [
 			"LC, but with custom pokemon!",
 		],
@@ -419,7 +419,7 @@ exports.Formats = [
 	},
 	*/
 	{
-		name: "[Gen 7] Anything Goes (C)",
+		name: "[Gen 7] Custom Anything Goes (C)",
 		desc: [
 			"AG, but with custom pokemon!",
 		],
@@ -428,11 +428,11 @@ exports.Formats = [
 		ruleset: ['[Gen 7] AG'],
 	},
 	{
-		section: "VN Doubles",
+		section: "Custom Pokemon Doubles",
 		column: 2,
 	},
 	{
-		name: "[Gen 7] Doubles OU (C)",
+		name: "[Gen 7] Custom Doubles OU",
 		desc: ["Doubles Ubers but with custom pokemon!"],
 
 		mod: 'genc',
@@ -440,7 +440,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] Doubles OU'],
 	},
 	{
-		name: "[Gen 7] Doubles Ubers (C)",
+		name: "[Gen 7] Custom Doubles Ubers",
 		desc: ["Doubles Ubers but with custom pokemon!"],
 
 		mod: 'genc',
@@ -448,7 +448,7 @@ exports.Formats = [
 		ruleset: ['[Gen 7] Doubles Ubers'],
 	},
 	{
-		name: "[Gen 7] Doubles UU (C)",
+		name: "[Gen 7] Custom Doubles UU",
 		desc: ["DUU but with custom pokemon!"],
 
 		mod: 'genc',
