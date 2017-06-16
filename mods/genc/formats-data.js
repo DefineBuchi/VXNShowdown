@@ -22,4 +22,10 @@ exports.BattleFormatsData = {
 	poseident: {
 		tier: "OU",
 	},
+	zeron: {
+		tier: "OU",
+	},
+	fusionvxn: {
+		tier: "AG",
+	},
 };
