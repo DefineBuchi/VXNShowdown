@@ -28,4 +28,7 @@ exports.BattleFormatsData = {
 	fusionvxn: {
 		tier: "AG",
 	},
+	baroon: {
+		tier: "Uber",
+	},
 };
