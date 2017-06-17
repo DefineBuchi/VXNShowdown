@@ -127,6 +127,6 @@ exports.BattlePokedex = {
 		heightm: 1.7,
 		weightkg: 60.0,
 		color: "Purple",
-		eggGroups: ["Undiscovered"],	
+		eggGroups: ["Undiscovered"],
 	},
 };
