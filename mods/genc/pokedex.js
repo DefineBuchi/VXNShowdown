@@ -117,4 +117,16 @@ exports.BattlePokedex = {
 		color: "Unknown",
 		eggGroups: ["Undiscovered"],
 	},
+	baroon:{
+		num: -9007,
+		species: "Baroon",
+		types: ["Water", "Ground"],
+		baseStats: {hp: 230, atk: 90, def: 150, spa: 110, spd: 90, spe: 70},
+		abilities: {0: "sturday", 1: "waterveil", H: "roughskin"},
+		genderRatio: {M: 0.9, F: 0.1},
+		heightm: 1.7,
+		weightkg: 60.0,
+		color: "Purple",
+		eggGroups: ["Undiscovered"],	
+	},
 };
