@@ -70,4 +70,18 @@ exports.BattleLearnsets = {
 			magicalpunch: ["7M"],
 		},
 	},
+	baroon: {
+		learnset: {
+			endure: ["7M"],
+			mirrorcoat: ["7M"],
+			blizzard: ["7M"],
+			dig: ["7M"],
+			dragonrage: ["7M"],
+			hyperbeam: ["7M"],
+			lightscreen: ["7M"],
+			hydropump: ["7M"],
+			earthquake: ["7M"],
+			protect: ["7M"],
+		},
+	},
 };
