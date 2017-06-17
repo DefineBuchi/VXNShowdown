@@ -83,5 +83,5 @@ exports.BattleLearnsets = {
 			earthquake: ["7M"],
 			protect: ["7M"],
 		},
-	}
+	},
 };
