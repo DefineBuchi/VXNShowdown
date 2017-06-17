@@ -79,7 +79,9 @@ exports.BattleLearnsets = {
 			dragonrage: ["7M"],
 			hyperbeam: ["7M"],
 			lightscreen: ["7M"],
-
+			hydropump: ["7M"],
+			earthquake: ["7M"],
+			protect: ["7M"],
 		},
 	}
 };
