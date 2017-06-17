@@ -134,7 +134,8 @@ Credits
 
 
 - VXN - Development
-- UniversalCraftr - VU Project
+- UniversalCraftr - VU Project and the custom pokemon
+- EndKuma - the Custom Pokemon
 - Zarel and Everyone [here][11] - Making PS available for me to use and modify
 
 [11]: http://pokemonshowdown.com/credits
