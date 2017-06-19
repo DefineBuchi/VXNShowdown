@@ -795,7 +795,11 @@ exports.BattleScripts = {
 
 		return {
 			moveset: {
+<<<<<<< HEAD
 				name: template.name,
+=======
+				species: template.name,
+>>>>>>> 6be947c0f87addf48f9d0be8d874efef3d69ccda
 				moves: moves,
 				ability: 'None',
 				evs: {hp: 255, atk: 255, def: 255, spa: 255, spd: 255, spe: 255},
