@@ -327,7 +327,7 @@ exports.Formats = [
 	},
 	{
 		name: "[Gen 7] VU Random Battle",
-		desc: ["Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable. Battle is used with the Everything Used Project Mod."],
+		desc: ["Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable. Battle is used with the VU Project Mod."],
 		mod: 'vu',
 		team: 'random',
 		ruleset: ['PotD', 'Pokemon', 'Sleep Clause Mod', 'HP Percentage Mod', 'Cancel Mod'],
