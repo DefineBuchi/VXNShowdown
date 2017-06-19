@@ -294,6 +294,9 @@ class GlobalRoom {
 				staffRoom:true,
 				staffAutojoin:"&,~",
 				modjoin:"&",
+			}, {
+				title: 'Development',
+				isPrivate:"hidden",
 			}];
 		}
 
