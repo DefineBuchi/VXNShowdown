@@ -288,6 +288,12 @@ class GlobalRoom {
 				isPrivate: true,
 				staffRoom: true,
 				staffAutojoin: true,
+			}, {
+				title: 'Upper Staff',
+				isPrivate: true,
+				staffRoom:true,
+				staffAutojoin:"&,~",
+				modjoin:"&",
 			}];
 		}
 
