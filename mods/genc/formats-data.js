@@ -31,4 +31,7 @@ exports.BattleFormatsData = {
 	baroon: {
 		tier: "Uber",
 	},
+	scarablade: {
+		tier: "OU",
+	},
 };
