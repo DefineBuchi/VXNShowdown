@@ -85,7 +85,7 @@ exports.BattlePokedex = {
 		num: -9004,
 		species: "Poseident",
 		types: ["Water", "Fighting"],
-		baseStats: {hp: 100, atk: 120, def: 70, spa: 85, spd: 50, spe: 110},
+		baseStats: {hp: 80, atk: 120, def: 55, spa: 65, spd: 70, spe: 110},
 		abilities: {0: "Torrent", H: "Defiant"},
 		genderRatio: {M: 0.875, F: 0.125},
 		heightm: 1.5,
