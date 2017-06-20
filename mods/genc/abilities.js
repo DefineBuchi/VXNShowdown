@@ -23,7 +23,22 @@ exports.BattleAbilities = {
 		},
 		id: "firestarter",
 		name: "Firestarter",
-		rating: 4,
+		rating: 2,
 		num: -101,
+	},
+	"corruption": {
+		desc: "This Pokemon loses 1/8 HP at the end of each full turn it has been on the field.",
+		shortDesc: "This Pokemon loses 1/8 HP at the end of each full turn on the field.",
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual: function (pokemon) {
+			if (pokemon.activeTurns) {
+				 this.damage(pokemon.maxhp / 8);
+			}
+		},
+		id: "corruption",
+		name: "Corruption",
+		rating: -2,
+		num: -102,
 	},
 };
