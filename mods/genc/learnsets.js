@@ -84,4 +84,25 @@ exports.BattleLearnsets = {
 			protect: ["7M"],
 		},
 	},
+	// TODO: Make movesets for these pokemon
+	zeron: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
+	chivalroot: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
+	poseident: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
+	fusionvxn: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
 };
