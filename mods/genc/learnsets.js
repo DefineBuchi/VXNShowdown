@@ -34,11 +34,6 @@ exports.BattleLearnsets = {
 			sleeptalk: ["7M"],
 		},
 	},
-	malwar: {
-		learnset: {
-			sketch: ["7M"],
-		},
-	},
 	naucess: {
 		learnset: {
 			gunkshot: ["7M"],
@@ -85,6 +80,11 @@ exports.BattleLearnsets = {
 		},
 	},
 	// TODO: Make movesets for these pokemon
+	malwar: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
 	zeron: {
 		learnset: {
 			sketch: ["7M"],
@@ -101,6 +101,11 @@ exports.BattleLearnsets = {
 		},
 	},
 	fusionvxn: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
+	scarablade: {
 		learnset: {
 			sketch: ["7M"],
 		},
