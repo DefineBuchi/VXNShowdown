@@ -34,4 +34,7 @@ exports.BattleFormatsData = {
 	scarablade: {
 		tier: "OU",
 	},
+	gigamole: {
+		tier: "OU",
+	},
 };
