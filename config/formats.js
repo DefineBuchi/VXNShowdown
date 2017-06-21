@@ -359,6 +359,7 @@ exports.Formats = [
 
 		mod: 'genc',
 		ruleset: ['[Gen 7] OU'],
+		banlist: ['AG'],
 	},
 	{
 		name: "[Gen 7] Custom Ubers",
@@ -368,6 +369,7 @@ exports.Formats = [
 
 		mod: 'genc',
 		ruleset: ['[Gen 7] Ubers'],
+		banlist: ['AG'],
 	},
 	{
 		name: "[Gen 7] Custom UU",
@@ -377,6 +379,7 @@ exports.Formats = [
 
 		mod: 'genc',
 		ruleset: ['[Gen 7] UU'],
+		banlist: ['AG'],
 	},
 	{
 		name: "[Gen 7] Custom RU",
@@ -386,6 +389,7 @@ exports.Formats = [
 
 		mod: 'genc',
 		ruleset: ['[Gen 7] RU'],
+		banlist: ['AG'],
 	},
 	{
 		name: "[Gen 7] Custom NU",
@@ -395,6 +399,7 @@ exports.Formats = [
 
 		mod: 'genc',
 		ruleset: ['[Gen 7] NU'],
+		banlist: ['AG'],
 	},
 	/*
 	{
@@ -405,6 +410,7 @@ exports.Formats = [
 
 		mod: 'genc',
 		ruleset: ['[Gen 7] PU'],
+		banlist: ['AG'],
 	},
 	{
 		name: "[Gen 7] Custom LC",
@@ -415,6 +421,7 @@ exports.Formats = [
 		mod: 'genc',
 		maxLevel: 5,
 		ruleset: ['[Gen 7] LC'],
+		banlist: ['AG'],
 	},
 	*/
 	{
@@ -424,7 +431,7 @@ exports.Formats = [
 		],
 
 		mod: 'genc',
-		ruleset: ['[Gen 7] AG'],
+		ruleset: ['[Gen 7] Anything Goes'],
 	},
 	{
 		section: "Custom Pokemon Doubles",
@@ -437,6 +444,7 @@ exports.Formats = [
 		mod: 'genc',
 		gameType: 'doubles',
 		ruleset: ['[Gen 7] Doubles OU'],
+		banlist: ['Fusion VxN'],
 	},
 	{
 		name: "[Gen 7] Custom Doubles Ubers",
@@ -445,6 +453,7 @@ exports.Formats = [
 		mod: 'genc',
 		gameType: 'doubles',
 		ruleset: ['[Gen 7] Doubles Ubers'],
+		banlist: ['Fusion VxN'],
 	},
 	{
 		name: "[Gen 7] Custom Doubles UU",
@@ -453,6 +462,7 @@ exports.Formats = [
 		mod: 'genc',
 		gameType: 'doubles',
 		ruleset: ['[Gen 7] Doubles UU!'],
+		banlist: ['Fusion VxN'],
 	},
 	// Other Metagames
 	///////////////////////////////////////////////////////////////////
