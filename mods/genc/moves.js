@@ -29,8 +29,4 @@ exports.BattleMovedex = {
 		zMovePower: 100,
 		contestType: "Cute",
 	},
-	"lightofruin": {
-		inherit: true,
-		isUnreleased: false,
-	},
 };
