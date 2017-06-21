@@ -133,4 +133,10 @@ exports.BattleLearnsets = {
 			sketch: ["7M"],
 		},
 	},
+	gigamole: {
+		learnset: {
+			sketch: ["7M"],
+			pitfall: ["7M"],
+		},
+	},
 };
