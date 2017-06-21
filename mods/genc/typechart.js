@@ -33,24 +33,24 @@ exports.BattleTypeChart = {
 			"Dark": 0,
 			"Dragon": 0,
 			"Electric": 0,
-			"Fairy": 0,
+			"Fairy": 2,
 			"Fighting": 2,
 			"Fire": 1,
 			"Flying": 1,
 			"Ghost": 0,
-			"Grass": 2,
-			"Ground": 2,
-			"Ice": 0,
+			"Grass": 0,
+			"Ground": 0,
+			"Ice": 1,
 			"Normal": 0,
 			"Poison": 0,
-			"Psychic": 0,
-			"Rock": 1,
-			"Steel": 0,
+			"Psychic": 2,
+			"Rock": 0,
+			"Steel": 2,
 			"Water": 0,
 		},
 		HPivs: {},
 		HPdvs: {},
-	},*/
+	},
 	"Dark": {
 		damageTaken: {
 			prankster: 3,
@@ -130,7 +130,7 @@ exports.BattleTypeChart = {
 	"Fairy": {
 		damageTaken: {
 			"Bug": 2,
-			"Cosmic": 0,
+			"Cosmic": 1,
 			"Dark": 2,
 			"Dragon": 3,
 			"Electric": 0,
@@ -154,6 +154,7 @@ exports.BattleTypeChart = {
 	"Fighting": {
 		damageTaken: {
 			"Bug": 2,
+			"Cosmic": 1,
 			"Dark": 2,
 			"Dragon": 0,
 			"Electric": 0,
@@ -179,7 +180,7 @@ exports.BattleTypeChart = {
 		damageTaken: {
 			brn: 3,
 			"Bug": 2,
-			"Cosmic": 0,
+			"Cosmic": 2,
 			"Dark": 0,
 			"Dragon": 0,
 			"Electric": 0,
@@ -309,7 +310,7 @@ exports.BattleTypeChart = {
 			hail: 3,
 			frz: 3,
 			"Bug": 0,
-			"Cosmic": 0,
+			"Cosmic": 2,
 			"Dark": 0,
 			"Dragon": 0,
 			"Electric": 0,
@@ -334,7 +335,7 @@ exports.BattleTypeChart = {
 	"Normal": {
 		damageTaken: {
 			"Bug": 0,
-			"Cosmic": 0,
+			"Cosmic": 1,
 			"Dark": 0,
 			"Dragon": 0,
 			"Electric": 0,
@@ -438,7 +439,7 @@ exports.BattleTypeChart = {
 			tox: 3,
 			sandstorm: 3,
 			"Bug": 2,
-			"Cosmic": 0,
+			"Cosmic": 1,
 			"Dark": 0,
 			"Dragon": 2,
 			"Electric": 0,
