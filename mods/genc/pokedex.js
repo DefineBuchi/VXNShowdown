@@ -107,7 +107,7 @@ exports.BattlePokedex = {
 	},
 	fusionvxn: {
 		num: -9006,
-		species: "Fusion: VxN",
+		species: "Fusion VxN",
 		types: ["Grass", "Electric"],
 		baseStats: {hp: 255, atk: 255, def: 255, spa: 255, spd: 255, spe: 255},
 		abilities: {0: "Corruption"},
