@@ -500,8 +500,8 @@ class User {
 	}
 	/**
 	 * Special permission check for system operators
-	 * The users garbodor and universalcraftr are the sysops for this server
-	 * If you dont want itsallgoodman or universalcraftr to help your server please remove these names in the array
+	 * The users in the array are the sysops for this server
+	 * If you dont want these people to help your server please remove those names in the array
 	 * If you want to be a sysop as well, put your username in the array like the style shown below
 	 **/
 	hasSysopAccess() {
