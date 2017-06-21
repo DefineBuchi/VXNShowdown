@@ -107,7 +107,7 @@ exports.BattlePokedex = {
 	},
 	fusionvxn: {
 		num: -9006,
-		species: "Fusion VxN",
+		species: "Fusion: VxN",
 		types: ["Grass", "Electric"],
 		baseStats: {hp: 255, atk: 255, def: 255, spa: 255, spd: 255, spe: 255},
 		abilities: {0: "Corruption"},
@@ -140,5 +140,17 @@ exports.BattlePokedex = {
 		weightkg: 5,
 		color: "Green",
 		eggGroups: ["Bug", "Dragon"],
+	},
+	gigamole:{
+		num: -9009,
+		species: "Gigamole",
+		types: ["Electric", "Ground"],
+		baseStats: {hp: 60, atk: 105, def: 75, spa: 30, spd: 60, spe: 95},
+		abilities: {0: "Static", H: "Serene Grace"},
+		genderRatio: {M: 0.5, F: 0.5},
+		heightm: 1.5,
+		weightkg: 7,
+		color: "Brown",
+		eggGroups: ["Field"],
 	},
 };
