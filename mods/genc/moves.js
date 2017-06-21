@@ -12,12 +12,7 @@ exports.BattleMovedex = {
 		name: "Magical Punch",
 		pp: 15,
 		priority: 0,
-		flags: {
-			contact: 1,
-			protect: 1,
-			mirror: 1,
-			punch: 1,
-		},
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		multihit: [2, 5],
 		onPrepareHit: function (target, source) {
 			this.attrLastMove('[still]');
@@ -28,5 +23,27 @@ exports.BattleMovedex = {
 		type: "Fairy",
 		zMovePower: 100,
 		contestType: "Cute",
+	},
+	"pitfall": {
+		num: -9001,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		desc: "Has a 30% chance to flinch the target.",
+		shortDesc: "30% chance to flinch the target.",
+		id: "pitfall",
+		isViable: true,
+		name: "Pitfall",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, distance: 1},
+		secondary: {
+			chance: 30,
+			volatileStatus: 'flinch',
+		},
+		target: "any",
+		type: "Ground",
+		zMovePower: 160,
+		contestType: "Tough",
 	},
 };
