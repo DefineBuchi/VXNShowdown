@@ -41,9 +41,14 @@ exports.BattleMovedex = {
 			chance: 30,
 			volatileStatus: 'flinch',
 		},
+		onPrepareHit: function (target, source) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Dig", target);
+		},
 		target: "any",
 		type: "Ground",
 		zMovePower: 160,
 		contestType: "Tough",
 	},
+	"psychoboost": {},
 };
