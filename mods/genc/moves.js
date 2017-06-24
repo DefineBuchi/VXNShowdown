@@ -50,5 +50,4 @@ exports.BattleMovedex = {
 		zMovePower: 160,
 		contestType: "Tough",
 	},
-	"psychoboost": {},
 };
