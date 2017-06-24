@@ -358,12 +358,8 @@ exports.commands = {
 
 		let buffer = '';
 		let sep = target.split(',');
-<<<<<<< HEAD
-		target = sep[0];
-=======
 		if (sep.length !== 2) sep = [target];
 		target = sep[0].trim();
->>>>>>> ca94b7d764bbf93fceb5f0e07af565b161e2d198
 		let targetId = toId(target);
 		if (!targetId) return this.parse('/help data');
 		let targetNum = parseInt(targetId);
