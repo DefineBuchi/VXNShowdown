@@ -20,7 +20,11 @@ exports.commands = {
 		if (template.isMega || (template.evos && Object.keys(template.evos).length > 0)) { // Mega Pokemon cannot be mega evolved
 			return this.errorReply(`You cannot mega evolve ${template.name} in Mix and Mega.`);
 		}
+<<<<<<< HEAD
 		let bannedStones = {'beedrillite':1, 'gengarite':1, 'kangaskhanite':1, 'mawilite':1};
+=======
+		let bannedStones = {'beedrillite':1, 'blazikenite':1, 'gengarite':1, 'kangaskhanite':1, 'mawilite':1, 'medichamite':1};
+>>>>>>> ca94b7d764bbf93fceb5f0e07af565b161e2d198
 		if (stone.id in bannedStones && template.name !== stone.megaEvolves) {
 			return this.errorReply(`You cannot use ${stone.name} on anything besides ${stone.megaEvolves} in Mix and Mega.`);
 		}
@@ -121,16 +125,16 @@ exports.commands = {
 			return this.errorReply("Error: Pokemon not found.");
 		}
 		let boosts = {
-			'UU': 5,
-			'BL2': 5,
-			'RU': 10,
-			'BL3': 10,
-			'NU': 15,
-			'BL4': 15,
-			'PU': 20,
-			'NFE': 20,
-			'LC Uber': 20,
-			'LC': 20,
+			'UU': 10,
+			'BL2': 10,
+			'RU': 20,
+			'BL3': 20,
+			'NU': 30,
+			'BL4': 30,
+			'PU': 40,
+			'NFE': 40,
+			'LC Uber': 40,
+			'LC': 40,
 		};
 		let template = Object.assign({}, Dex.getTemplate(target));
 		if (!(template.tier in boosts)) return this.sendReplyBox(`${template.species} in Tier Shift: <br /> ${Object.values(template.baseStats).join('/')}`);

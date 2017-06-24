@@ -358,11 +358,16 @@ exports.commands = {
 
 		let buffer = '';
 		let sep = target.split(',');
+<<<<<<< HEAD
 		target = sep[0];
+=======
+		if (sep.length !== 2) sep = [target];
+		target = sep[0].trim();
+>>>>>>> ca94b7d764bbf93fceb5f0e07af565b161e2d198
 		let targetId = toId(target);
 		if (!targetId) return this.parse('/help data');
 		let targetNum = parseInt(targetId);
-		if (!isNaN(targetNum)) {
+		if (!isNaN(targetNum) && '' + targetNum === target) {
 			for (let p in Dex.data.Pokedex) {
 				let pokemon = Dex.getTemplate(p);
 				if (pokemon.num === targetNum) {
@@ -1505,10 +1510,10 @@ exports.commands = {
 		});
 
 		const ProcessManager = require('../process-manager');
-		ProcessManager.cache.forEach((processManager, execFile) => {
+		ProcessManager.cache.forEach((execFile, processManager) => {
 			let i = 0;
 			processManager.processes.forEach(process => {
-				buf += `<strong>${process.process.pid}</strong> - ${path.baseName(execFile)} ${i++}<br />`;
+				buf += `<strong>${process.process.pid}</strong> - ${path.basename(execFile)} ${i++}<br />`;
 			});
 		});
 
@@ -1733,6 +1738,8 @@ exports.commands = {
 	'!veekun': true,
 	veekun: function (target, broadcast, user) {
 		if (!this.runBroadcast()) return;
+
+		if (!target) return this.parse('/help veekun');
 
 		let baseLink = 'http://veekun.com/dex/';
 
