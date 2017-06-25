@@ -50,4 +50,40 @@ exports.BattleMovedex = {
 		zMovePower: 160,
 		contestType: "Tough",
 	},
+	"psychoboost": {
+		inherit: true,
+		basePower: 130,
+	},
+	"prismaticlaser": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"cometpunch": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"meteormash": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"moonblast": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"wish": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"healingwish": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"moonlight": {
+		inherit: true,
+		type: "Cosmic",
+	},
+	"morningsun": {
+		inherit: true,
+		type: "Cosmic",
+	},
 };
