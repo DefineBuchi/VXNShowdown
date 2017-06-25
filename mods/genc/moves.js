@@ -22,7 +22,7 @@ exports.BattleMovedex = {
 		target: "normal",
 		type: "Fairy",
 		zMovePower: 100,
-		contestType: "Cute",
+		contestType: "Beautiful",
 	},
 	"pitfall": {
 		num: -9001,
@@ -50,6 +50,24 @@ exports.BattleMovedex = {
 		zMovePower: 160,
 		contestType: "Tough",
 	},
+	"ultimatesupernova": {
+		num: -9004,
+		accuracy: true,
+		basePower: 1,
+		category: "Physical",
+		shortDesc: "Power is equal to the base move's Z-Power.",
+		id: "ultimatesupernova",
+		isViable: true,
+		name: "Ultimate Supernova",
+		pp: 1,
+		priority: 0,
+		flags: {},
+		isZ: "cosmiumz",
+		secondary: false,
+		target: "normal",
+		type: "Cosmic",
+		contestType: "Clever",
+	},
 	"psychoboost": {
 		inherit: true,
 		basePower: 130,
@@ -57,10 +75,12 @@ exports.BattleMovedex = {
 	"prismaticlaser": {
 		inherit: true,
 		type: "Cosmic",
+		contestType: "Clever",
 	},
 	"cometpunch": {
 		inherit: true,
 		type: "Cosmic",
+		contestType: "Clever",
 	},
 	"meteormash": {
 		inherit: true,
@@ -70,27 +90,33 @@ exports.BattleMovedex = {
 		desc: "No additional effect.",
 		shortDesc: "No additional effect.",
 		flags: {contact: 1, protect: 1, mirror: 1},
+		contestType: "Clever",
 	},
 	"moonblast": {
 		inherit: true,
 		type: "Cosmic",
 		basePower: 90,
+		contestType: "Clever",
 	},
 	"wish": {
 		inherit: true,
 		type: "Cosmic",
+		contestType: "Clever",
 	},
 	"healingwish": {
 		inherit: true,
 		type: "Cosmic",
+		contestType: "Clever",
 	},
 	"moonlight": {
 		inherit: true,
 		type: "Cosmic",
+		contestType: "Clever",
 	},
 	"morningsun": {
 		inherit: true,
 		type: "Cosmic",
+		contestType: "Clever",
 	},
 	"steampunkslam": {
 		num: -9002,
