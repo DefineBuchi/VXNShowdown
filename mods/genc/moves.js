@@ -65,10 +65,16 @@ exports.BattleMovedex = {
 	"meteormash": {
 		inherit: true,
 		type: "Cosmic",
+		secondary: false,
+		accuracy: 100,
+		desc: "No additional effect.",
+		shortDesc: "No additional effect.",
+		flags: {contact: 1, protect: 1, mirror: 1},
 	},
 	"moonblast": {
 		inherit: true,
 		type: "Cosmic",
+		basePower: 90,
 	},
 	"wish": {
 		inherit: true,
@@ -85,5 +91,55 @@ exports.BattleMovedex = {
 	"morningsun": {
 		inherit: true,
 		type: "Cosmic",
+	},
+	"steampunkslam": {
+		num: -9002,
+		accuracy: 90,
+		basePower: 90,
+		category: "Physical",
+		desc: "Has a 20% chance to raise the user's Attack by 1 stage.",
+		shortDesc: "20% chance to raise the user's Attack by 1.",
+		id: "steampunkslam",
+		isViable: true,
+		name: "Steampunk Slam",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
+		secondary: {
+			chance: 20,
+			self: {
+				boosts: {
+					atk: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Steel",
+		zMovePower: 175,
+		contestType: "Cool",
+	},
+	"blindingbeam": {
+		num: -9003,
+		accuracy: 100,
+		basePower: 95,
+		category: "Special",
+		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "30% chance to lower the target's accuracy by 1.",
+		id: "blindingbeam",
+		isViable: true,
+		name: "Blinding Beam",
+		pp: 15,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 30,
+			boosts: {
+				accuracy: -1,
+			},
+		},
+		target: "normal",
+		type: "Fairy",
+		zMovePower: 175,
+		contestType: "Beautiful",
 	},
 };
