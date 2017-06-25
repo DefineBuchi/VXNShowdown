@@ -62,6 +62,12 @@ exports.BattleMovedex = {
 		pp: 1,
 		priority: 0,
 		flags: {},
+		onPrepareHit: function (target, source) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Cosmic Power", target);
+			this.add('-anim', source, "Giga Impact", target);
+			this.add('-anim', target, "Explosion", source);
+		},
 		isZ: "cosmiumz",
 		secondary: false,
 		target: "normal",
@@ -139,6 +145,11 @@ exports.BattleMovedex = {
 				},
 			},
 		},
+		onPrepareHit: function (target, source) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Shift Gear", target);
+			this.add('-anim', source, "Heavy Slam", target);
+		},
 		target: "normal",
 		type: "Steel",
 		zMovePower: 175,
@@ -162,6 +173,10 @@ exports.BattleMovedex = {
 			boosts: {
 				accuracy: -1,
 			},
+		},
+		onPrepareHit: function (target, source) {
+			this.attrLastMove('[still]');
+			this.add('-anim', source, "Light of Ruin", target);
 		},
 		target: "normal",
 		type: "Fairy",
