@@ -29,7 +29,7 @@ exports.BattleStatuses = {
 		},
 		onModifySpe: function (spe, pokemon) {
 			if (!pokemon.hasAbility('quickfeet')) {
-				return this.chainModify(0.5);
+				return this.chainModify(0.25);
 			}
 		},
 		onBeforeMovePriority: 1,
@@ -121,12 +121,7 @@ exports.BattleStatuses = {
 		},
 		onResidualOrder: 9,
 		onResidual: function (pokemon) {
-			if (!(source && source.hasAbility('corrosion')) {
-					this.damage(pokemon.maxhp / 4);
-				} else {
-					this.damage(pokemon.maxhp / 8);
-				},
-			},
+			this.damage(pokemon.maxhp / 8);
 		},
 	},
 	tox: {
@@ -149,12 +144,7 @@ exports.BattleStatuses = {
 			if (this.effectData.stage < 15) {
 				this.effectData.stage++;
 			}
-			if (!(source && source.hasAbility('corrosion')) {
-					this.damage(this.clampIntRange(pokemon.maxhp / 8, 1) * this.effectData.stage);
-				} else {
-					this.damage(this.clampIntRange(pokemon.maxhp / 16, 1) * this.effectData.stage);
-				},
-			},
+			this.damage(this.clampIntRange(pokemon.maxhp / 16, 1) * this.effectData.stage);
 		},
 	},
 	confusion: {
@@ -622,6 +612,12 @@ exports.BattleStatuses = {
 				return 8;
 			}
 			return 5;
+		},
+		onWeatherModifyDamage: function (damage, attacker, defender, move) {
+			if (move.type === 'Ice') {
+				this.debug('VU Hail ice boost');
+				return this.chainModify(1.5);
+			}
 		},
 		onStart: function (battle, source, effect) {
 			if (effect && effect.effectType === 'Ability') {
