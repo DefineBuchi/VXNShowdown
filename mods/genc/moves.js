@@ -219,7 +219,7 @@ exports.BattleMovedex = {
 						return;
 					}
 					return false;
-				},
+				}
 			},
 		},
 		secondary: false,
