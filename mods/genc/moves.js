@@ -183,4 +183,49 @@ exports.BattleMovedex = {
 		zMovePower: 175,
 		contestType: "Beautiful",
 	},
+	"disruptionbeacon": {
+		num: -9005,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		desc: "Changes the foe's ability to Truant on switch in.",
+		shortDesc: "Changes the foe's ability to Truant on switch in.",
+		id: "disruptionbeacon",
+		isViable: true,
+		name: "Disruption Beacon",
+		pp: 20,
+		priority: 0,
+		flags: {reflectable: 1},
+		sideCondition: 'disruptionbeacon',
+		effect: {
+			// this is a side condition
+			onStart: function (side) {
+				this.add('-sidestart', side, 'move: Disruption Beacon');
+			},
+			onSwitchIn: function (pokemon) {
+				let bannedAbilities = {
+					comatose: 1,
+					multitype: 1,
+					stancechange: 1,
+					truant: 1,
+					rkssystem: 1,
+				};
+				if (bannedAbilities[pokemon.ability]) {
+					return false;
+				} else {
+					let oldAbility = pokemon.setAbility('truant');
+					if (oldAbility) {
+						this.add('-ability', pokemon, 'Truant', '[from] move: Disruption Beacon');
+						return;
+					}
+					return false;
+				},
+			},
+		},
+		secondary: false,
+		target: "foeSide",
+		type: "Steel",
+		zMoveBoost: {atk: 1},
+		contestType: "Tough",
+	},
 };
