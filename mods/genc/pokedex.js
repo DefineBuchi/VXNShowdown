@@ -209,10 +209,6 @@ exports.BattlePokedex = {
 		inherit: true,
 		types: ["Cosmic", "Ghost"],
 	},
-	silvally: {
-		inherit: true,
-		types: ["Cosmic"],
-	},
 	starmie: {
 		inherit: true,
 		types: ["Water", "Cosmic"],
