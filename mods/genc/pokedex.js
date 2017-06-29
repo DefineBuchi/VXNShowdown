@@ -193,4 +193,76 @@ exports.BattlePokedex = {
 		evoLevel: 2,
 		eggGroups: ["Undiscovered"],
 	},
+	cosmog: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	cosmoem: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	solgaleo: {
+		inherit: true,
+		types: ["Cosmic", "Steel"],
+	},
+	lunala: {
+		inherit: true,
+		types: ["Cosmic", "Ghost"],
+	},
+	silvally: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	starmie: {
+		inherit: true,
+		types: ["Water", "Cosmic"],
+	},
+	cleffa: {
+		inherit: true,
+		types: ["Fairy", "Cosmic"],
+	},
+	clefairy: {
+		inherit: true,
+		types: ["Fairy", "Cosmic"],
+	},
+	clefable: {
+		inherit: true,
+		types: ["Fairy", "Cosmic"],
+	},
+	solrock: {
+		inherit: true,
+		types: ["Rock", "Cosmic"],
+	},
+	lunatone: {
+		inherit: true,
+		types: ["Rock", "Cosmic"],
+	},
+	elgyem: {
+		inherit: true,
+		types: ["Cosmic", "Psychic"],
+	},
+	beheeyem: {
+		inherit: true,
+		types: ["Cosmic", "Psychic"],
+	},
+	necrozma: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	deoxys: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	deoxysspeed: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	deoxysdefense: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
+	deoxysattack: {
+		inherit: true,
+		types: ["Cosmic"],
+	},
 };
