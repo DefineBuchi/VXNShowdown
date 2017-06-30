@@ -394,8 +394,7 @@ exports.BattleFormatsData = {
 		],
 		eventOnly: true,
 		gen: 7,
-		isUnreleased: true,
-		tier: "Unreleased",
+		tier: "NU",
 	},
 	raichu: {
 		randomBattleMoves: ["nastyplot", "encore", "thunderbolt", "grassknot", "hiddenpowerice", "focusblast", "voltswitch"],
@@ -6229,6 +6228,7 @@ exports.BattleFormatsData = {
 		randomDoubleBattleMoves: ["dragonpulse", "dracometeor", "fireblast", "shellsmash", "protect", "focusblast", "explosion"],
 		eventPokemon: [
 			{"generation": 7, "level": 1, "shiny": 1, "moves":["flamethrower", "bodyslam", "wideguard"], "pokeball": "cherishball"},
+			{"generation": 7, "level": 30, "gender": "M", "nature": "Brave", "moves":["flamethrower", "shelltrap", "dragontail"], "pokeball": "cherishball"},
 		],
 		tier: "NU",
 	},
