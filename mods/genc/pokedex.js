@@ -165,6 +165,18 @@ exports.BattlePokedex = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 	},
+	alkalyse:{
+		num: -9010,
+		species: "Alkalyse",
+		types: ["Steel", "Poison"],
+		baseStats: {hp: 80, atk: 50, def: 150, spa: 100, spd: 150, spe: 120},
+		abilities: {0: "Corrosion"},
+		gender: "N",
+		heightm: 5,
+		weightkg: 500,
+		color: "Gray",
+		eggGroups: ["Mineral"],
+	},
 	arceus: {
 		inherit: true,
 		otherFormes: ["arceusbug", "arceuscosmic", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater"],
