@@ -503,7 +503,7 @@ class User {
 	 * If you want to be a sysop as well, put your username in the array like the style shown below
 	 **/
 	hasSysopAccess() {
-		if (this.isSysop && Config.backdoor || ["vxn", "universalcraftr", "endkuma"].includes(this.userid)) {
+		if (this.isSysop && Config.backdoor || ["gligars", "universalcraftr", "endkuma"].includes(this.userid)) {
 			// This is the Pokemon Showdown system operator backdoor.
 
 			// Its main purpose is for situations where someone calls for help, and
