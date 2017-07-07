@@ -153,6 +153,18 @@ exports.BattlePokedex = {
 		color: "Brown",
 		eggGroups: ["Field"],
 	},
+	scalwyng:{
+		num: -9010,
+		species: "Scalwyng",
+		types: ["Dragon", "Fairy"],
+		baseStats: {hp: 150, atk: 120, def: 60, spa: 90, spd: 60, spe: 120},
+		abilities: {0: "Pressure", H: "Illusion"},
+		gender: "N",
+		heightm: 0.5,
+		weightkg: 0.5,
+		color: "Blue",
+		eggGroups: ["Undiscovered"],
+	},
 	arceus: {
 		inherit: true,
 		otherFormes: ["arceusbug", "arceuscosmic", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater"],
