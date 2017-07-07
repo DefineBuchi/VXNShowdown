@@ -139,4 +139,9 @@ exports.BattleLearnsets = {
 			pitfall: ["7M"],
 		},
 	},
+	scalwyng: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
 };
