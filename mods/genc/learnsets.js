@@ -144,4 +144,9 @@ exports.BattleLearnsets = {
 			sketch: ["7M"],
 		},
 	},
+	alkalyse: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
 };
