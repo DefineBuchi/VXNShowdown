@@ -43,4 +43,7 @@ exports.BattleFormatsData = {
 	alkalyse: {
 		tier: "OU",
 	},
+	nucleozap: {
+		tier: "OU",
+	},
 };
