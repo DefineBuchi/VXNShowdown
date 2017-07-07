@@ -166,7 +166,7 @@ exports.BattlePokedex = {
 		eggGroups: ["Undiscovered"],
 	},
 	alkalyse:{
-		num: -9010,
+		num: -9011,
 		species: "Alkalyse",
 		types: ["Steel", "Poison"],
 		baseStats: {hp: 80, atk: 50, def: 150, spa: 100, spd: 150, spe: 120},
@@ -176,6 +176,18 @@ exports.BattlePokedex = {
 		weightkg: 500,
 		color: "Gray",
 		eggGroups: ["Mineral"],
+	},
+	nucleozap:{
+		num: -9012,
+		species: "Nucelozap",
+		types: ["Poison", "Electric"],
+		baseStats: {hp: 100, atk: 110, def: 80, spa: 50, spd: 100, spe: 80},
+		abilities: {0: "Speed Boost", 1: "Tinted Lens", H: "Guts"},
+		genderRatio: {M: 0.5, F: 0.5},
+		heightm: 3.5,
+		weightkg: 2,
+		color: "Purple",
+		eggGroups: ["Amorphous"],
 	},
 	arceus: {
 		inherit: true,
