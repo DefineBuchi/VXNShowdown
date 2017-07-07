@@ -46,4 +46,10 @@ exports.BattleFormatsData = {
 	nucleozap: {
 		tier: "OU",
 	},
+	arceuscosmic: {
+		tier: "Uber",
+	},
+	silvallycosmic: {
+		tier: "NU",
+	},
 };
