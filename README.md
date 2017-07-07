@@ -1,4 +1,4 @@
-Gliagar's PS Repo
+Gligar's PS Repo
 ========================================================================
 
 [![Build Status](https://travis-ci.org/Gligar/Gligar.svg?branch=master)](https://travis-ci.org/Gligar/Gligar)
