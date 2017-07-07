@@ -37,4 +37,7 @@ exports.BattleFormatsData = {
 	gigamole: {
 		tier: "OU",
 	},
+	scalwyng: {
+		tier: "OU",
+	},
 };
