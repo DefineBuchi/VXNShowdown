@@ -40,4 +40,7 @@ exports.BattleFormatsData = {
 	scalwyng: {
 		tier: "OU",
 	},
+	alkalyse: {
+		tier: "OU",
+	},
 };
