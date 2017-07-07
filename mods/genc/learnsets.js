@@ -149,4 +149,9 @@ exports.BattleLearnsets = {
 			sketch: ["7M"],
 		},
 	},
+	nucleozap: {
+		learnset: {
+			sketch: ["7M"],
+		},
+	},
 };
