@@ -301,7 +301,7 @@ exports.Formats = [
 		desc: [
 			"&bullet; Lets make everything OU!",
 			"&bullet; All pokemon are allowed with buffs and nerfs to add viablity as a whole.",
-			"&bullet; Concept by VXN and Universalcraftr. Coded by VXN.",
+			"&bullet; Concept by VXN and Universalcraftr. Coded by Gligars.",
 			"&bullet; <a href=\"http://www.google.com\">Sample Teams (TBA)</a>",
 		],
 		mod: 'vu',
@@ -319,7 +319,7 @@ exports.Formats = [
 		desc: [
 			"&bullet; Lets make everything OU!",
 			"&bullet; All pokemon are allowed with buffs and nerfs to add viablity as a whole.",
-			"&bullet; Concept by VXN and Universalcraftr. Coded by VXN.",
+			"&bullet; Concept by VXN and Universalcraftr. Coded by Gligars.",
 			"&bullet; <a href=\"http://www.google.com\">Sample Teams (TBA)</a>",
 		],
 		gameType: 'doubles',
