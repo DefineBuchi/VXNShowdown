@@ -189,6 +189,18 @@ exports.BattlePokedex = {
 		color: "Purple",
 		eggGroups: ["Amorphous"],
 	},
+	cometier:{
+		num: -9013,
+		species: "Cometier",
+		types: ["Cosmic", "Ice"],
+		baseStats: {hp: 80, atk: 90, def: 80, spa: 90, spd: 80, spe: 150},
+		abilities: {0: "Illuminate", H: "Adaptability"},
+		genderRatio: {M: 0.5, F: 0.5},
+		heightm: 2,
+		weightkg: 0.2,
+		color: "Blue",
+		eggGroups: ["Mineral"],
+	},
 	arceus: {
 		inherit: true,
 		otherFormes: ["arceusbug", "arceuscosmic", "arceusdark", "arceusdragon", "arceuselectric", "arceusfairy", "arceusfighting", "arceusfire", "arceusflying", "arceusghost", "arceusgrass", "arceusground", "arceusice", "arceuspoison", "arceuspsychic", "arceusrock", "arceussteel", "arceuswater"],
