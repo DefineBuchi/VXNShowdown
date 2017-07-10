@@ -309,8 +309,8 @@ exports.BattlePokedex = {
 		inherit: true,
 		types: ["Cosmic"],
 	},
-	altaar:{
-		num: -,
+	altaar :{
+		num: -9014,
 		species: "Altaar",
 		types: ["Dragon", "Ghost"],
 		baseStats: {hp: 60, atk: 120, def: 45, spa: 75, spd: 60, spe: 90},
@@ -321,8 +321,8 @@ exports.BattlePokedex = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
-	badabing:{
-		num: -,
+	badabing: {
+		num: -9015,
 		species: "Badabing",
 		types: ["Normal", "Grass"],
 		baseStats: {hp: 100, atk: 45, def: 50, spa: 45, spd: 60, spe: 60},
@@ -331,10 +331,10 @@ exports.BattlePokedex = {
 		heightm: 1.3,
 		weightkg: 68,
 		color: "White",
-		eggGroups: ["Undiscovered"],
+		eggGroups: ["Field"],
 	},
-	paxel:{
-		num: -,
+	paxel: {
+		num: -9016,
 		species: "Paxel",
 		types: ["Fighting"],
 		baseStats: {hp: 65, atk: 60, def: 35, spa: 95, spd: 40, spe: 73},
@@ -343,6 +343,6 @@ exports.BattlePokedex = {
 		heightm: 2.1,
 		weightkg: 48,
 		color: "Orange",
-		eggGroups: ["Undiscovered"],
+		eggGroups: ["Human-Like"],
 	},	
 };
