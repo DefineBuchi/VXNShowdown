@@ -344,5 +344,5 @@ exports.BattlePokedex = {
 		weightkg: 48,
 		color: "Orange",
 		eggGroups: ["Human-Like"],
-	},	
+	},
 };
